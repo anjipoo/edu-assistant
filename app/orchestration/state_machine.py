@@ -16,9 +16,18 @@ def handle_state(session, message):
     elif state == "collecting_contact":
         session["lead_data"]["contact"] = message
 
-        save_lead(session["lead_data"])
+        save_lead(
+            session["lead_data"],
+            session["interaction_flags"]
+        )
 
         session["state"] = "idle"
+        session["interaction_flags"] = {
+            "asked_fees": False,
+            "asked_details": False,
+            "showed_interest": False
+        }
+
         return "Thank you! Our team will contact you soon."
 
     return None

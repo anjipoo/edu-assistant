@@ -20,7 +20,16 @@ def chat(req: ChatRequest):
 
     log_step("USER", req.message)
 
-    # Step 1: Handle ongoing state (lead flow)
+    # Step 1: Update interaction flags
+    msg = req.message.lower()
+
+    if "fee" in msg or "cost" in msg:
+        session["interaction_flags"]["asked_fees"] = True
+
+    if "course" in msg or "details" in msg:
+        session["interaction_flags"]["asked_details"] = True
+
+    # Step 2: Handle lead flow state
     state_response = handle_state(session, req.message)
     if state_response:
         log_step("STATE", session["state"])
@@ -30,13 +39,14 @@ def chat(req: ChatRequest):
             "response": state_response
         }
 
-    # Step 2: Detect intent
+    # Step 3: Intent detection
     intent = detect_intent(req.message)
     log_step("INTENT", intent)
 
-    # Step 3: Handle interest
     if intent == "lead_interest":
         session["state"] = "collecting_name"
+        session["interaction_flags"]["showed_interest"] = True
+
         response = "Great! Can I have your name?"
 
         log_step("STATE", session["state"])
