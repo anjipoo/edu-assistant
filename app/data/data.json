@@ -1,0 +1,349 @@
+[
+  {
+    "course": "Artificial Intelligence",
+    "aliases": ["AI", "Artificial Intelligence"],
+    "type": "overview",
+    "content": "The Artificial Intelligence course covers machine learning, deep learning, NLP, and computer vision with hands-on projects."
+  },
+  {
+    "course": "Artificial Intelligence",
+    "aliases": ["AI", "Artificial Intelligence"],
+    "type": "overview",
+    "content": "AI program focuses on building intelligent systems using data, neural networks, and real-world applications."
+  },
+  {
+    "course": "Artificial Intelligence",
+    "aliases": ["AI", "Artificial Intelligence"],
+    "type": "fees",
+    "content": "The Artificial Intelligence course costs ₹120,000."
+  },
+  {
+    "course": "Artificial Intelligence",
+    "aliases": ["AI", "Artificial Intelligence"],
+    "type": "fees",
+    "content": "The fee for the Artificial Intelligence course is ₹120,000."
+  },
+  {
+    "course": "Artificial Intelligence",
+    "aliases": ["AI", "Artificial Intelligence"],
+    "type": "fees",
+    "content": "AI course fees are ₹120,000."
+  },
+  {
+    "course": "Artificial Intelligence",
+    "aliases": ["AI", "Artificial Intelligence"],
+    "type": "duration",
+    "content": "The duration of the Artificial Intelligence course is 6 months."
+  },
+  {
+    "course": "Artificial Intelligence",
+    "aliases": ["AI", "Artificial Intelligence"],
+    "type": "duration",
+    "content": "AI course runs for 6 months."
+  },
+  {
+    "course": "Artificial Intelligence",
+    "aliases": ["AI", "Artificial Intelligence"],
+    "type": "mode",
+    "content": "The Artificial Intelligence course is offered in hybrid mode."
+  },
+  {
+    "course": "Artificial Intelligence",
+    "aliases": ["AI", "Artificial Intelligence"],
+    "type": "eligibility",
+    "content": "Eligibility requires a bachelor's degree with basic math and programming knowledge."
+  },
+  {
+    "course": "Artificial Intelligence",
+    "aliases": ["AI", "Artificial Intelligence"],
+    "type": "placement",
+    "content": "Placement support includes resume building, mock interviews, and hiring partnerships."
+  },
+  {
+    "course": "Artificial Intelligence",
+    "aliases": ["AI", "Artificial Intelligence"],
+    "type": "careers",
+    "content": "Career options include AI Engineer, Machine Learning Engineer, and Data Scientist."
+  },
+
+  {
+    "course": "Data Science",
+    "aliases": ["DS", "Data Science"],
+    "type": "overview",
+    "content": "The Data Science course focuses on data analysis, visualization, and machine learning techniques."
+  },
+  {
+    "course": "Data Science",
+    "aliases": ["DS", "Data Science"],
+    "type": "overview",
+    "content": "This program teaches how to extract insights from data using Python, SQL, and visualization tools."
+  },
+  {
+    "course": "Data Science",
+    "aliases": ["DS", "Data Science"],
+    "type": "fees",
+    "content": "The Data Science course costs ₹100,000."
+  },
+  {
+    "course": "Data Science",
+    "aliases": ["DS", "Data Science"],
+    "type": "fees",
+    "content": "The fee for the Data Science course is ₹100,000."
+  },
+  {
+    "course": "Data Science",
+    "aliases": ["DS", "Data Science"],
+    "type": "fees",
+    "content": "Data Science course fees are ₹100,000."
+  },
+  {
+    "course": "Data Science",
+    "aliases": ["DS", "Data Science"],
+    "type": "duration",
+    "content": "The duration of the Data Science course is 5 months."
+  },
+  {
+    "course": "Data Science",
+    "aliases": ["DS", "Data Science"],
+    "type": "mode",
+    "content": "The Data Science course is offered online."
+  },
+  {
+    "course": "Data Science",
+    "aliases": ["DS", "Data Science"],
+    "type": "eligibility",
+    "content": "Eligibility requires basic statistics and programming knowledge."
+  },
+  {
+    "course": "Data Science",
+    "aliases": ["DS", "Data Science"],
+    "type": "placement",
+    "content": "Placement support includes portfolio building and interview preparation."
+  },
+  {
+    "course": "Data Science",
+    "aliases": ["DS", "Data Science"],
+    "type": "careers",
+    "content": "Career opportunities include Data Analyst and Data Scientist roles."
+  },
+
+  {
+    "course": "Web Development",
+    "aliases": ["Web Dev", "Full Stack", "Web Development"],
+    "type": "overview",
+    "content": "The Web Development course covers frontend and backend technologies to build modern web applications."
+  },
+  {
+    "course": "Web Development",
+    "aliases": ["Web Dev", "Full Stack", "Web Development"],
+    "type": "overview",
+    "content": "This course teaches full-stack development using HTML, CSS, JavaScript, React, and Node.js."
+  },
+  {
+    "course": "Web Development",
+    "aliases": ["Web Dev", "Full Stack", "Web Development"],
+    "type": "fees",
+    "content": "The Web Development course costs ₹80,000."
+  },
+  {
+    "course": "Web Development",
+    "aliases": ["Web Dev", "Full Stack", "Web Development"],
+    "type": "fees",
+    "content": "Web Dev course fees are ₹80,000."
+  },
+  {
+    "course": "Web Development",
+    "aliases": ["Web Dev", "Full Stack", "Web Development"],
+    "type": "duration",
+    "content": "The Web Development course lasts 4 months."
+  },
+  {
+    "course": "Web Development",
+    "aliases": ["Web Dev", "Full Stack", "Web Development"],
+    "type": "mode",
+    "content": "The Web Development course is conducted offline."
+  },
+  {
+    "course": "Web Development",
+    "aliases": ["Web Dev", "Full Stack", "Web Development"],
+    "type": "eligibility",
+    "content": "Eligibility requires 12th pass with basic computer knowledge."
+  },
+  {
+    "course": "Web Development",
+    "aliases": ["Web Dev", "Full Stack", "Web Development"],
+    "type": "placement",
+    "content": "Placement support includes portfolio building and job referrals."
+  },
+  {
+    "course": "Web Development",
+    "aliases": ["Web Dev", "Full Stack", "Web Development"],
+    "type": "careers",
+    "content": "Career options include Frontend, Backend, and Full Stack Developer roles."
+  },
+
+  {
+    "course": "Cybersecurity",
+    "aliases": ["Cyber Security", "Security", "Cybersecurity"],
+    "type": "overview",
+    "content": "The Cybersecurity course focuses on protecting systems through ethical hacking and security practices."
+  },
+  {
+    "course": "Cybersecurity",
+    "aliases": ["Cyber Security", "Security", "Cybersecurity"],
+    "type": "overview",
+    "content": "This program teaches penetration testing, cryptography, and threat detection techniques."
+  },
+  {
+    "course": "Cybersecurity",
+    "aliases": ["Cyber Security", "Security", "Cybersecurity"],
+    "type": "fees",
+    "content": "The Cybersecurity course costs ₹110,000."
+  },
+  {
+    "course": "Cybersecurity",
+    "aliases": ["Cyber Security", "Security", "Cybersecurity"],
+    "type": "fees",
+    "content": "Cybersecurity course fees are ₹110,000."
+  },
+  {
+    "course": "Cybersecurity",
+    "aliases": ["Cyber Security", "Security", "Cybersecurity"],
+    "type": "duration",
+    "content": "The Cybersecurity course duration is 5 months."
+  },
+  {
+    "course": "Cybersecurity",
+    "aliases": ["Cyber Security", "Security", "Cybersecurity"],
+    "type": "mode",
+    "content": "The Cybersecurity course is offered in hybrid mode."
+  },
+  {
+    "course": "Cybersecurity",
+    "aliases": ["Cyber Security", "Security", "Cybersecurity"],
+    "type": "eligibility",
+    "content": "Basic networking knowledge is required."
+  },
+  {
+    "course": "Cybersecurity",
+    "aliases": ["Cyber Security", "Security", "Cybersecurity"],
+    "type": "placement",
+    "content": "Placement support includes certification guidance and job assistance."
+  },
+  {
+    "course": "Cybersecurity",
+    "aliases": ["Cyber Security", "Security", "Cybersecurity"],
+    "type": "careers",
+    "content": "Career roles include Security Analyst and Ethical Hacker."
+  },
+
+  {
+    "course": "Cloud Computing",
+    "aliases": ["Cloud", "Cloud Computing"],
+    "type": "overview",
+    "content": "The Cloud Computing course covers AWS, Azure, and cloud infrastructure management."
+  },
+  {
+    "course": "Cloud Computing",
+    "aliases": ["Cloud", "Cloud Computing"],
+    "type": "overview",
+    "content": "This course teaches cloud deployment, DevOps integration, and containerization tools like Docker."
+  },
+  {
+    "course": "Cloud Computing",
+    "aliases": ["Cloud", "Cloud Computing"],
+    "type": "fees",
+    "content": "The Cloud Computing course costs ₹90,000."
+  },
+  {
+    "course": "Cloud Computing",
+    "aliases": ["Cloud", "Cloud Computing"],
+    "type": "fees",
+    "content": "Cloud course fees are ₹90,000."
+  },
+  {
+    "course": "Cloud Computing",
+    "aliases": ["Cloud", "Cloud Computing"],
+    "type": "duration",
+    "content": "The Cloud Computing course lasts 4 months."
+  },
+  {
+    "course": "Cloud Computing",
+    "aliases": ["Cloud", "Cloud Computing"],
+    "type": "mode",
+    "content": "The Cloud Computing course is offered online."
+  },
+  {
+    "course": "Cloud Computing",
+    "aliases": ["Cloud", "Cloud Computing"],
+    "type": "eligibility",
+    "content": "Eligibility requires basic IT and networking knowledge."
+  },
+  {
+    "course": "Cloud Computing",
+    "aliases": ["Cloud", "Cloud Computing"],
+    "type": "placement",
+    "content": "Placement support includes certification preparation and job assistance."
+  },
+  {
+    "course": "Cloud Computing",
+    "aliases": ["Cloud", "Cloud Computing"],
+    "type": "careers",
+    "content": "Career options include Cloud Engineer and DevOps Engineer."
+  },
+
+  {
+    "course": "UI/UX Design",
+    "aliases": ["UI UX", "UX Design", "UI Design", "UI/UX Design"],
+    "type": "overview",
+    "content": "The UI/UX Design course focuses on creating user-friendly and visually appealing digital interfaces."
+  },
+  {
+    "course": "UI/UX Design",
+    "aliases": ["UI UX", "UX Design", "UI Design", "UI/UX Design"],
+    "type": "overview",
+    "content": "This program covers design thinking, wireframing, prototyping, and usability testing."
+  },
+  {
+    "course": "UI/UX Design",
+    "aliases": ["UI UX", "UX Design", "UI Design", "UI/UX Design"],
+    "type": "fees",
+    "content": "The UI/UX Design course costs ₹70,000."
+  },
+  {
+    "course": "UI/UX Design",
+    "aliases": ["UI UX", "UX Design", "UI Design", "UI/UX Design"],
+    "type": "fees",
+    "content": "UI/UX course fees are ₹70,000."
+  },
+  {
+    "course": "UI/UX Design",
+    "aliases": ["UI UX", "UX Design", "UI Design", "UI/UX Design"],
+    "type": "duration",
+    "content": "The UI/UX Design course duration is 3 months."
+  },
+  {
+    "course": "UI/UX Design",
+    "aliases": ["UI UX", "UX Design", "UI Design", "UI/UX Design"],
+    "type": "mode",
+    "content": "The UI/UX Design course is conducted offline."
+  },
+  {
+    "course": "UI/UX Design",
+    "aliases": ["UI UX", "UX Design", "UI Design", "UI/UX Design"],
+    "type": "eligibility",
+    "content": "No prior experience is required."
+  },
+  {
+    "course": "UI/UX Design",
+    "aliases": ["UI UX", "UX Design", "UI Design", "UI/UX Design"],
+    "type": "placement",
+    "content": "Placement support includes portfolio review and mock interviews."
+  },
+  {
+    "course": "UI/UX Design",
+    "aliases": ["UI UX", "UX Design", "UI Design", "UI/UX Design"],
+    "type": "careers",
+    "content": "Career roles include UI Designer, UX Designer, and Product Designer."
+  }
+]
