@@ -8,6 +8,20 @@
 5. lead capture
 6. explainability + logging
 
+## features after iter 3
+1. lead scoring system
+2. user behavior tracking (fees / details / interest)
+3. lead classification (HOT 🔥 / WARM / COLD)
+
+## features after iter 4
+1. hybrid intent detection (rule-based + LLM fallback)
+2. better handling of natural language queries
+
+## features after iter 5
+1. conversation memory
+2. context-aware responses (multi-turn understanding)
+3. history-based prompt injection
+
 ## architecture
 
 User → FastAPI → Intent → State Machine → RAG → LLM → Response
@@ -17,10 +31,16 @@ FastAPI, FAISS, Sentence Transformers, Ollama (mistral)
 
 ## example
 
-User: What is AI course fee?
+User: Tell me about AI course
+
 → RAG → Answer
 
+User: What is the fee?
+
+→ Uses memory → AI course fee
+
 User: I am interested
+
 → Lead capture flow starts
 
 ## to run locally
