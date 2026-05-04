@@ -20,7 +20,10 @@ def chat(req: ChatRequest):
 
     log_step("USER", req.message)
 
-    # Step 1: Update interaction flags
+    # 🔥 Save message to history
+    session["history"].append({"role": "user", "content": req.message})
+
+    # Update interaction flags
     msg = req.message.lower()
 
     if "fee" in msg or "cost" in msg:
@@ -29,17 +32,20 @@ def chat(req: ChatRequest):
     if "course" in msg or "details" in msg:
         session["interaction_flags"]["asked_details"] = True
 
-    # Step 2: Handle lead flow state
+    # Handle lead flow
     state_response = handle_state(session, req.message)
     if state_response:
+        session["history"].append({"role": "assistant", "content": state_response})
+
         log_step("STATE", session["state"])
         log_step("RESPONSE", state_response)
+
         return {
             "state": session["state"],
             "response": state_response
         }
 
-    # Step 3: Intent detection
+    # Intent detection
     intent = detect_intent(req.message)
     log_step("INTENT", intent)
 
@@ -49,6 +55,8 @@ def chat(req: ChatRequest):
 
         response = "Great! Can I have your name?"
 
+        session["history"].append({"role": "assistant", "content": response})
+
         log_step("STATE", session["state"])
         log_step("RESPONSE", response)
 
@@ -57,8 +65,10 @@ def chat(req: ChatRequest):
             "response": response
         }
 
-    # Step 4: RAG response
-    response = rag_answer(req.message)
+    # 🔥 RAG WITH CONTEXT
+    response = rag_answer(req.message, session["history"])
+
+    session["history"].append({"role": "assistant", "content": response})
 
     log_step("STATE", session["state"])
     log_step("RESPONSE", response)

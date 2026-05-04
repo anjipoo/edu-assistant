@@ -9,7 +9,8 @@ def get_session(session_id):
                 "asked_fees": False,
                 "asked_details": False,
                 "showed_interest": False
-            }
+            },
+            "history": []   # 🔥 NEW
         }
 
     return sessions[session_id]
