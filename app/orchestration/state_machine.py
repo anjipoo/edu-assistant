@@ -1,4 +1,5 @@
 from app.services.lead import save_lead
+from app.services.followup import generate_followup
 
 def handle_state(session, message):
     state = session.get("state", "idle")
@@ -16,10 +17,14 @@ def handle_state(session, message):
     elif state == "collecting_contact":
         session["lead_data"]["contact"] = message
 
+        # Save lead
         save_lead(
             session["lead_data"],
             session["interaction_flags"]
         )
+
+        # 🔥 Generate follow-up
+        followup_msg = generate_followup(session["lead_data"])
 
         session["state"] = "idle"
         session["interaction_flags"] = {
@@ -28,6 +33,6 @@ def handle_state(session, message):
             "showed_interest": False
         }
 
-        return "Thank you! Our team will contact you soon."
+        return f"Thank you! Our team will contact you soon.\n\n{followup_msg}"
 
     return None

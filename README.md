@@ -22,6 +22,9 @@
 2. context-aware responses (multi-turn understanding)
 3. history-based prompt injection
 
+## features after iter 6
+1. proactive follow-up generation
+
 ## architecture
 
 User → FastAPI → Intent → State Machine → RAG → LLM → Response
@@ -35,13 +38,26 @@ User: Tell me about AI course
 
 → RAG → Answer
 
+
 User: What is the fee?
 
 → Uses memory → AI course fee
 
+
 User: I am interested
 
 → Lead capture flow starts
+
+
+User: Sam
+
+User: AI
+
+User: xxxxxxxxxx
+
+→ Lead stored (HOT 🔥)
+
+→ Follow-up message generated
 
 ## to run locally
 
