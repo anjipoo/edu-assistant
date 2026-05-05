@@ -25,6 +25,9 @@
 ## features after iter 6
 1. proactive follow-up generation
 
+## features after iter 7
+1. admin lead viewer (API)
+
 ## architecture
 
 User → FastAPI → Intent → State Machine → RAG → LLM → Response
@@ -53,11 +56,17 @@ User: Sam
 
 User: AI
 
-User: xxxxxxxxxx
 
 → Lead stored (HOT 🔥)
 
 → Follow-up message generated
+
+
+Admin:
+
+GET /leads
+
+→ View all leads
 
 ## to run locally
 
