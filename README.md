@@ -77,5 +77,3 @@ then
 ```bash
 python run.py
 ```
-
-### updating after each iter :))
